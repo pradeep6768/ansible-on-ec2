@@ -1,0 +1,8 @@
+ dnf -y install python3-pip
+pip3 install --upgrade pip
+sudo dnf -y install python2-pip
+sudo pip2 install --upgrade pip
+sudo dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+sudo dnf install  --enablerepo epel-playground  ansible
+pip3 install ansible --user
+pip2 install ansible --user
